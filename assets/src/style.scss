@@ -128,7 +128,6 @@ input[type="submit"] {
     border-radius: 5px;
     background: rgba(118,117,128,0.05);
 			&:hover {
-				color: #ec5a62;
 				background-color: rgba(118,117,128,0.1);
 				transition: all .3 ease;
 			}		
@@ -137,6 +136,9 @@ input[type="submit"] {
 		padding: 12px;
 		width: 100%;
     display: block;
+    &:hover span {
+    	color: #ec5a62;
+    }
 		&:focus {
 				outline: none; 
 			}		
