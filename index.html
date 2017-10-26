@@ -11,11 +11,9 @@
 <body>
 	<header class="search__header">
 		<div class="container">
-			<form class="form-wrapper cf">
-				<div class="search">
+			<form class="search">
 					<input id="search" type="search" placeholder="Search..." required>
-					<input type="submit" style="background-image: url(assets/img/search.svg);" value="" />
-				</div>
+					<input class="submit" type="submit" style="background-image: url(assets/img/favicon.png);" value="" />
 			</form>
 		</div>
 	</header>
@@ -29,9 +27,11 @@
 		<!-- .gallery__filters -->
 
 		<div class="search__container container">
-
+			
+			<h2 class="search__title">people</h2>
+			
 			<div class="search__columns">
-
+				
 				<div class="search__item people ">
 					<a data-fancybox data-type="iframe" data-name="sara soueidan" class="search__link people" href="https://twitter.com/sarasoueidan">
 						<img class="search__photo search__photo--circle" src="assets/img/SaraSoueidan.jpeg">
@@ -71,7 +71,9 @@
 
 			</div>
 
+			<h2 class="search__title">popular</h2>
 			<div class="search__columns">
+			
 				<div class="search__item popular ">
 					<a data-fancybox data-type="iframe" data-name="page preloading effect" class="search__link popular " href="https://tympanus.net/codrops/2014/08/05/page-preloading-effect/"><img class="search__photo" src="assets/img/PagePreloadingEffect.png">
 						<span class="search__name">Page Preloading Effect</span>
@@ -109,8 +111,10 @@
 				</div>
 
 			</div>
-
+			
+			<h2 class="search__title">recent</h2>
 			<div class="search__columns">
+			
 				<div class="search__item recent ">
 					<a data-fancybox data-type="iframe" data-name="tooltip styles inspiration" class="search__link recent " href="https://tympanus.net/codrops/2014/10/07/tooltip-styles-inspiration/"><img class="search__photo" src="assets/img/TooltipStylesInspiration.png">
 						<span class="search__name">Tooltip Styles Inspiration</span>
