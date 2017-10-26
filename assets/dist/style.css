@@ -110,13 +110,14 @@ input[type="submit"] {
     border-radius: 5px;
     background: rgba(118, 117, 128, 0.05); }
     .search__item:hover {
-      color: #ec5a62;
       background-color: rgba(118, 117, 128, 0.1);
       transition: all .3 ease; }
   .search__link {
     padding: 12px;
     width: 100%;
     display: block; }
+    .search__link:hover span {
+      color: #ec5a62; }
     .search__link:focus {
       outline: none; }
   .search__photo {
