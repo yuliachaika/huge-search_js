@@ -1,0 +1,16 @@
+
+assets/src/general/\.DS_Store
+
+assets/src/\.DS_Store
+
+assets/js/\.DS_Store
+
+assets/img/\.DS_Store
+
+assets/dist/\.DS_Store
+
+\.DS_Store
+
+\.sass-cache/ed214fe1f2dcc6de64ce25c7a450178366f97c39/reset\.scssc
+
+\.sass-cache/cdbe9505db83bb621d896839c6f03506512ab7be/style\.scssc
